@@ -14,7 +14,7 @@ Then, load the env using `. env/bin/activate`.
 You'll also need a mongodb for local testing.  Recommendation is:
 
 ```
-docker run --rm -it --networking=host mongo:3
+docker run --rm -it --network=host mongo:3
 ```
 
 ## Example adding new info
